@@ -82,3 +82,212 @@ body{
     padding: 2%;
     margin: 0;
 }
+.banner{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+.grid-container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+#emAlta{
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+
+#tituloItem1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#imgItem1{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#tituloItem2{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+#imgItem2{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#tituloItem3{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+#imgItem3{
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#tituloItem4{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+#imgItem4{
+    grid-column-start: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+#tituloItem5{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+#imgItem5{
+    grid-column-start: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+#tituloItem6{
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+#imgItem6{
+    grid-column-start: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+#tituloItem7{
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+#imgItem7{
+    grid-column-start: 1;
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
+
+#tituloItem8{
+    grid-column-start: 2;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+#imgItem8{
+    grid-column-start: 2;
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
+
+#tituloItem9{
+    grid-column-start: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+#imgItem9{
+    grid-column-start: 3;
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
+
+#tituloItem10{
+    grid-column-start: 1;
+    grid-row-start: 7;
+    grid-row-end: 7;
+}
+#imgItem10{
+    grid-column-start: 1;
+    grid-row-start: 8;
+    grid-row-end: 8;
+}
+
+#tituloItem11{
+    grid-column-start: 2;
+    grid-row-start: 7;
+    grid-row-end: 7;
+}
+#imgItem11{
+    grid-column-start: 2;
+    grid-row-start: 8;
+    grid-row-end: 8;
+}
+
+#tituloItem12{
+    grid-column-start: 3;
+    grid-row-start: 7;
+    grid-row-end: 7;
+}
+#imgItem12{
+    grid-column-start: 3;
+    grid-row-start: 8;
+    grid-row-end: 8;
+}
+
+#tituloItem1, #tituloItem2, #tituloItem3, #tituloItem4, #tituloItem5, #tituloItem6, #tituloItem7, #tituloItem8, #tituloItem9{
+} 
+
+#imgItem1, #imgItem2, #imgItem3, #imgItem4, #imgItem5, #imgItem6, #imgItem7, #imgItem8, #imgItem9{
+} 
+
+.grid-container-curiosidades{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    border: 2px solid white;
+    background-color: #1A1A1A;
+}
+
+#curiosidade1, #curiosidade2, #curiosidade3, #curiosidade4, #curiosidade5{
+    text-align:justify;
+    padding: 5%;
+}
+
+.video{
+    width: 50%;
+    height: 50%;
+    padding-left: 25% ;
+}
+
+#paragrafoCuriosidade1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#paragrafoCuriosidade2{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#paragrafoCuriosidade3{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-top: 8%;
+}
+
+#paragrafoCuriosidade4{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+#paragrafoCuriosidade5{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+#tituloCuriosidades{
+    text-align: center;
+    font-size: 30px;
+}
